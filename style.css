@@ -1,26 +1,39 @@
 body {
     margin: 0;
     background-color: rgb(15, 59, 59);
+    
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: dotted;
-    color: tomato;
-    font-size: 100px;
-}
+
 
 .main-game {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    color: greenyellow;   
+}
+
+.main-game:hover{
+    color: black;
+}
+
+p{
+    font-size: 25px;
+    border-color:black;
+    text-justify: auto;
+    background-imag: rgb(30,30,30);
+    width: 45vh;
+    border-radius:0.3em;
+    border-width: 0.2rem;
+    border-style:solid;
+}
+
+p:hover{
+   background: rgb(0, 255, 106);
 }
 
 .genius {
+    
     display: grid;
     grid-template-areas: 'verde vermelho'
    ' amarelo azul' ;
@@ -30,6 +43,8 @@ body {
    border-radius: 100%;
    width: 700px;
    height: 700px;
+   margin-left: 650px;
+   
 }
 
 .blue {
@@ -62,3 +77,4 @@ body {
 .selected {
     opacity: 0.3;
 }
+
